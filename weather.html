@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <style>
+        body {
+            background-color: rgb(195, 216, 236);
+
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        :root {
+            --navbar-height: 59px;
+        }
+
+        #krashi {
+            background-color: rgb(8, 1, 31);
+            border: 10px solid rgb(8, 1, 31);
+        }
+
+        #krashi h1 {
+            display: flex;
+            justify-content: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(239, 237, 237);
+            margin: 20px;
+        }
+
+        #navbar {
+            display: flex;
+            align-items: center;
+            top: 0px;
+            position: sticky;
+            justify-content: center;
+        }
+
+        #navbar ul {
+            display: flex;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #navbar ul li {
+            list-style: none;
+            font-size: 1.5rem;
+        }
+
+        #navbar ul li a {
+            border: 2px solid rgb(236, 232, 226);
+            background-color: rgb(15, 9, 1);
+            color: rgb(240, 237, 237);
+            display: block;
+            padding: 3px 32px;
+            margin: 22px;
+            text-decoration: none;
+            border-radius: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 2.8rem;
+        }
+
+        .weather {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+
+        .weather div {
+            flex-basis: 30%;
+            background-color: #8dd3f1;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .location h2,
+        .temperature h2,
+        .description h2 {
+            margin-top: 0;
+        }
+
+        .location p,
+        .temperature p,
+        .description p {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        #team {
+            display: flex;
+            margin-top: 150px;
+        }
+
+        .names {
+            padding: 12px;
+            width: 33%;
+            background-color: rgb(35, 35, 35);
+            color: rgb(243, 243, 240);
+        }
+
+        .para {
+            margin: 104px;
+            margin-top: 24px;
+            font-size: 1.6rem;
+            padding: 3px 4px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+        }
+
+        .para1 {
+            margin: 104px;
+            margin-top: 23px;
+            font-size: 1.6rem;
+            padding: 3px 4px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+        }
+
+        .img {
+            height: 490px;
+            margin: 110px;
+            margin-top: 54px;
+
+        }
+
+        #team .names li {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="krashi">
+        <h1>Kra-C</h1>
+    </div>
+    <nav id="navbar">
+        <ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="#">Weather</a></li>
+            <li class="item"><a href="soil.html">Soil</a></li>
+            <li class="item"><a href="alert.html">Alert</a></li>
+        </ul>
+    </nav>
+
+    <p class="para">Weather plays a crucial role in agriculture as it affects crop growth, yield, and quality.
+        Farmers need to be aware of weather patterns to make informed decisions about when to plant, irrigate,
+        fertilize, and harvest their crops.</p>
+    <div class="container">
+        <h1>Weather Condition</h1>
+        <div class="weather">
+            <div class="location">
+                <h2>Location:</h2>
+                <p>VIJAYWADA</p>
+            </div>
+            <div class="temperature">
+                <h2>Temperature:</h2>
+                <p>68°F</p>
+            </div>
+            <div class="description">
+                <h2>Description:</h2>
+                <p>Sunny</p>
+            </div>
+        </div>
+    </div>
+    <p class="para1">Temperature, rainfall, and sunlight are among the most important weather factors that impact
+        agriculture. Different crops have different temperature requirements for optimal growth and yield, and too much
+        or too little rainfall can also have significant effects on crop production. For example, prolonged drought can
+        lead to crop failure and reduced yields, while excessive rainfall can cause flooding and waterlogging, which can
+        damage crops and make it difficult for farmers to access their fields.</p>\
+    <img class="img" src="img1.png" alt="Weather">
+    <p class="para1">Extreme weather events, such as heatwaves, cold snaps, and severe storms, can also have a
+        significant impact on agriculture. These events can damage crops, livestock, and infrastructure, and can cause
+        disruptions to transportation and supply chains.
+        Understanding the weather and its potential effects on agriculture is critical for farmers and policymakers to
+        make informed decisions about land use, crop selection, and food security.</p>
+    <footer>
+        <div id="team">
+            <div class="names">
+                <h3>ANOOP</h3>
+                <li>VIT AP Student</li>
+                <li>Computer Science Engineering</li>
+                <li>Reg no-21BCE7994</li>
+                <li>6396937375</li>
+            </div>
+            <div class="names">
+                <h3>LABHAM</h3>
+                <li>VIT AP Student</li>
+                <li>Computer Science Engineering</li>
+                <li>Reg no-21BCE8198</li>
+                <li>9977802949</li>
+            </div>
+            <div class="names">
+                <h3>SAI HARSHITH</h3>
+                <li>VIT AP Student</li>
+                <li>Computer Science Engineering</li>
+                <li>Reg no-21BCE8025</li>
+                <li>9381163155</li>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

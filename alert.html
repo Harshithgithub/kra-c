@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alert</title>
+</head>
+<style>
+  body {
+    background-color: rgb(245, 166, 170);
+  }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  :root {
+    --navbar-height: 59px;
+  }
+
+  #krashi {
+    background-color: rgb(8, 1, 31);
+    border: 10px solid rgb(8, 1, 31);
+  }
+
+  #krashi h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(239, 237, 237);
+  }
+
+  #navbar {
+    display: flex;
+    align-items: center;
+    top: 0px;
+    position: sticky;
+    justify-content: center;
+  }
+
+  #navbar ul {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #navbar ul li {
+    list-style: none;
+    font-size: 1.5rem;
+  }
+
+  #navbar ul li a {
+    border: 2px solid rgb(236, 232, 226);
+    background-color: rgb(15, 9, 1);
+    color: rgb(240, 237, 237);
+    display: block;
+    padding: 3px 32px;
+    margin: 12px;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+
+  table {
+
+    width: 100%;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f8d9d9;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1,
+  h2 {
+    margin: 0px 34px;
+  }
+
+  #weather-alerts1,
+  #disease-alerts1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+
+  .para {
+    font-size: 1.4rem;
+    margin: 12px 13px;
+    padding: 13px 14px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #main {
+        display: flex;
+    }
+
+    .names {
+        padding: 12px;
+        width: 33%;
+        background-color: rgb(35, 35, 35);
+        color: rgb(243, 243, 240);
+    }
+
+  #main .names li {
+    list-style: none;
+
+  }
+</style>
+
+<body>
+  <div id="krashi">
+    <h1>Kra-C</h1>
+  </div>
+  <nav id="navbar">
+    <ul>
+      <li class="item"><a href="index.html">Home</a></li>
+      <li class="item"><a href="weather.html">Weather</a></li>
+      <li class="item"><a href="soil.html">Soil</a></li>
+      <li class="item"><a href="#">Alert</a></li>
+    </ul>
+  </nav>
+  <p class="para">In agriculture, the term "alert" can refer to a variety of things, but most commonly it refers to a
+    warning or notification system that is used to notify farmers and other agricultural stakeholders of potential risks
+    or hazards.</p>
+  <div>
+    <h1>Weather and Disease Alert</h1>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Agriculture Alert</p>
+  </footer>
+
+  <div id="weather-alerts1">
+    <h2>Weather Alerts</h2>
+  </div>
+  <div id="disease-alerts1">
+    <h2>Disease Alerts</h2>
+  </div>
+
+  <div id="weather-alerts">
+    <h2>Weather Alerts</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Alert</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>April 8, 2023</td>
+          <td>3:00 PM</td>
+          <td>Heavy rain expected</td>
+        </tr>
+        <tr>
+          <td>April 9, 2023</td>
+          <td>10:00 AM</td>
+          <td>High winds expected</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <section id="disease-alerts">
+    <h2>Disease Alerts</h2>
+    <ul>
+      <li>Tomato blight reported in nearby farms</li>
+      <li>Apple scab outbreak in the region</li>
+    </ul>
+  </section>
+  <p class="para">
+    For example, weather alerts can be sent to farmers to warn them of impending storms or other severe weather
+    conditions that could damage crops or livestock. Pest alerts can also be used to inform farmers of potential insect
+    or disease outbreaks that could threaten their crops.
+    Additionally, alerts can be used to inform farmers of market conditions, such as changes in commodity prices or
+    shifts in demand for certain crops. This information can help farmers make informed decisions about what crops to
+    grow and when to harvest them.
+    Overall, alert systems are an important tool in modern agriculture, as they allow farmers to stay informed about
+    potential risks and opportunities, and to make decisions that can help them improve their yields and profitability.
+  </p>
+  <div id="main">
+    <div class="names">
+      <h3>ANOOP</h3>
+      <li>VIT AP Student</li>
+      <li>Computer Science Engineering</li>
+      <li>Reg no-21BCE7994</li>
+      <li>6396937375</li>
+
+    </div>
+    <div class="names">
+      <h3>LABHAM</h3>
+      <li>VIT AP Student</li>
+      <li>Computer Science Engineering</li>
+      <li>Reg no-21BCE8198</li>
+      <li>9977802949</li>
+    </div>
+    <div class="names">
+      <h3>SAI HARSHITH</h3>
+      <li>VIT AP Student</li>
+      <li>Computer Science Engineering</li>
+      <li>Reg no-21BCE8025</li>
+      <li>9381163155</li>
+
+    </div>
+
+
+</body>
+
+</html>

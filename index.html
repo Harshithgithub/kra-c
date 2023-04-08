@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kra-C</title>
+</head>
+<style>
+    body {
+        background-color: antiquewhite;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    :root {
+        --navbar-height: 59px;
+    }
+
+    #krashi {
+        background-color: rgb(8, 1, 31);
+        border: 10px solid rgb(8, 1, 31);
+    }
+
+    #krashi h1 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(239, 237, 237);
+    }
+
+    #navbar {
+        display: flex;
+        align-items: center;
+        top: 0px;
+        position: sticky;
+        justify-content: center;
+    }
+
+    #navbar ul {
+        display: flex;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #navbar ul li {
+        list-style: none;
+        font-size: 1.5rem;
+    }
+
+    #navbar ul li a {
+        border: 2px solid rgb(236, 232, 226);
+        background-color: rgb(15, 9, 1);
+        color: rgb(240, 237, 237);
+        display: block;
+        padding: 3px 32px;
+        margin: 12px;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+
+    #navbar ul li a:hover {
+        background-color: rgb(160, 129, 86);
+    }
+
+
+    #service {
+        margin: 104px;
+        display: flex;
+    }
+
+    #service .box {
+        border: 3px solid rgb(235, 217, 217);
+        padding: 14px;
+        margin: 3px 8px;
+        background-color: antiquewhite;
+    }
+
+    #service .box img {
+        height: 350px;
+        display: flex;
+        /* margin: auto; */
+
+    }
+
+    #anoop {
+        margin: 104px;
+        display: flex;
+    }
+
+    #anoop .box {
+        border: 3px solid rgb(235, 217, 217);
+        padding: 14px;
+        margin: auto 8px;
+        background-color: antiquewhite;
+    }
+
+    #anoop .box img {
+        height: 350px;
+        display: flex;
+        /* margin: auto; */
+    }
+
+    #labham {
+        display: flex;
+        padding: 14px;
+        margin: 34px;
+        border: 3px solid rgb(235, 217, 217);
+        background-color: antiquewhite;
+    }
+
+    #harshit ul {
+        display: flex;
+        top: 0px;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(14, 8, 1);
+        border-radius: 20px;
+        font-size: 2.1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+
+    }
+
+    #harshit ul li {
+        color: rgb(236, 228, 228);
+        display: block;
+        padding: 3px 22px;
+        margin: 12px;
+        text-decoration: none;
+    }
+
+    #harshit ul li a {
+        color: rgb(236, 228, 228);
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+
+    #main {
+        display: flex;
+    }
+
+    .names {
+        padding: 12px;
+        width: 33%;
+        background-color: rgb(35, 35, 35);
+        color: rgb(243, 243, 240);
+    }
+
+    #agro {
+        font-size: 2.1rem;
+        margin: 34px;
+        padding: 12px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+
+    .para {
+        font-size: 1.4rem;
+        margin: 2px 3px;
+        padding: 3px 4px;
+    }
+
+    .heading {
+        text-decoration: underline;
+        margin: 5px 4px;
+    }
+
+    .video {
+        margin: 0px 67px;
+    }
+
+    .para1 {
+        font-size: 1.7rem;
+        padding: 3px 4px;
+        margin: 34px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+
+    #main .names li {
+        list-style: none;
+    }
+</style>
+
+<body>
+    <div id="krashi">
+        <h1>Kra-C</h1>
+    </div>
+    <nav id="navbar">
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="weather.html">Weather</a></li>
+            <li class="item"><a href="soil.html">Soil</a></li>
+            <li class="item"><a href="alert.html">Alert</a></li>
+        </ul>
+    </nav>
+    <div id="agro">
+        <p>Agriculture, soil, weather, and alerts are all interconnected when it comes to farming and crop management.
+            Here are some key points to consider:</p>
+
+        <h5 class="heading">Agriculture and Soil:</h5>
+        <p class="para"> Agriculture heavily relies on soil health and quality. The soil provides the necessary
+            nutrients and support for plants to grow, and farmers must maintain and improve soil health through
+            practices such as crop rotation, fertilization, and conservation tillage.</p>
+        <h5 class="heading">Weather and Agriculture:</h5>
+        <p class="para"> Weather conditions play a significant role in agriculture, as crops require adequate sunlight,
+            water, and temperature to thrive. Extreme weather events, such as droughts, floods, and storms, can damage
+            crops and affect yields. Monitoring weather patterns is crucial for farmers to make informed decisions about
+            planting, irrigation, and other practices.</p>
+        <div id="service">
+            <div class="box">
+                <img src="https://media.istockphoto.com/id/543212762/photo/tractor-cultivating-field-at-spring.jpg?s=612x612&w=0&k=20&c=uJDy7MECNZeHDKfUrLNeQuT7A1IqQe89lmLREhjIJYU="
+                    alt="">
+            </div>
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YWdyaWN1bHR1cmV8ZW58MHx8MHx8&w=1000&q=80"
+                    alt="">
+            </div>
+        </div>
+        <h5 class="heading">Weather and Soil:</h5>
+        <p class="para"> Weather also impacts soil health, as rainfall, temperature, and wind can affect erosion rates,
+            nutrient cycling, and soil moisture levels. Changes in weather patterns due to climate change can have
+            significant impacts on soil health and agricultural productivity.</p>
+        <h5 class="heading">Alerts and Agriculture:</h5>
+        <p class="para"> Alerts, such as weather alerts, can be useful for farmers to plan their operations and protect
+            their crops from weather-related damage. There are also soil sensors that can provide real-time data on soil
+            moisture levels, nutrient levels, and other key indicators to help farmers make informed decisions about
+            irrigation and fertilization.</p>
+    </div>
+    <div id="anoop">
+        <div class="box">
+            <img src="https://media.istockphoto.com/id/1249522339/photo/tractor-spray-fertilizer-on-green-field.jpg?s=612x612&w=0&k=20&c=8tyljgHGgTAxrqKnpgsZVWsD-A2tsMRPFaqcErgV62o="
+                alt="">
+        </div>
+        <div class="box">
+            <img src="https://files.worldwildlife.org/wwfcmsprod/images/Sustainable_Agriculture/hero_small/7ym5ecakzi_sustainable_agriculture_overview_XL_240144.jpg"
+                alt="">
+        </div>
+    </div>
+    <p class="para1">Water alerts provide information on water levels, water quality, and weather conditions that affect
+        water availability and quality for agriculture. This information helps farmers plan their irrigation schedules,
+        conserve water resources, and prevent waterlogging or soil erosion. Water alerts can be obtained through weather
+        forecasts, river gauges, and water quality sensors.
+        Overall, agriculture soil, water, and weather alerts are critical tools for farmers and other stakeholders to
+        manage their agricultural operations effectively and efficiently, improve yields and quality, and mitigate risks
+        related to weather, soil, and water
+    </p>
+    <div id="labham">
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/e0TyEZd6NZ0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <div class="video1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/W3P9deLFkk8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="harshit">
+        <ul>
+            <li>Info</li>
+            <li><a href="https://agriinfra.dac.gov.in/" target="_blank">Gov.Subsidies-1</a></li>
+            <li><a href="https://atmaaims.com/" target="_blank">Gov.Subsidies-2</a> </li>
+            <li><a href="https://agmarknet.gov.in/" target="_blank">Gov.Subsidies-3</a></li>
+            <li><a href="https://agricoop.nic.in/en/Major#gsc.tab=0" target="_blank">Gov.Subsidies-4</a></li>
+        </ul>
+    </div>
+    <div id="main">
+        <div class="names">
+            <h3>ANOOP</h3>
+            <li>VIT AP Student</li>
+            <li>Computer Science Engineering</li>
+            <li>Reg no-21BCE7994</li>
+            <li>6396937375</li>
+        </div>
+        <div class="names">
+            <h3>LABHAM</h3>
+            <li>VIT AP Student</li>
+            <li>Computer Science Engineering</li>
+            <li>Reg no-21BCE8198</li>
+            <li>9977802949</li>
+        </div>
+        <div class="names">
+            <h3>SAI HARSHITH</h3>
+            <li>VIT AP Student</li>
+            <li>Computer Science Engineering</li>
+            <li>Reg no-21BCE8025</li>
+            <li>9381163155</li>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
